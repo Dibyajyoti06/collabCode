@@ -1,3 +1,9 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  overflow: hidden; /* Prevent scrolling */
+}
 .homePageWrapper {
   display: flex;
   align-items: center;
@@ -91,7 +97,7 @@ footer a:hover {
 
 .mainWrap {
   display: grid;
-  grid-template-columns: 230px 1fr 230px;
+  grid-template-columns: 1fr 4fr 1fr;
 }
 
 .aside {
@@ -173,7 +179,7 @@ select {
   padding: 8px;
   border: 1px solid #4aed88;
   border-radius: 5px;
-  margin-right: 30px;
+  margin-right: 20px;
   font-size: 16px;
   outline: none;
   cursor: pointer;
